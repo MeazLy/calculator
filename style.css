@@ -1,0 +1,18 @@
+div{
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.numDisplay,.resultDisplay{
+    border: 0px;
+    height: 50%;
+    width: 50%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+}
